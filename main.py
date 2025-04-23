@@ -10,7 +10,7 @@ LOG_FILE = '/var/log/auth.log'
 REPORT_THRESHOLD = 1
 CHECK_INTERVAL = 1  # Проверка каждую секунду
 SSH_CATEGORY = 18
-PORTSCAN_CATEGORY = 15
+PORTSCAN_CATEGORY = 14
 
 def report_to_abuseipdb(ip, category, reason):
     url = 'https://api.abuseipdb.com/api/v2/report'
